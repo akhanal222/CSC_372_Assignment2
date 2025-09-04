@@ -1,0 +1,57 @@
+body{
+    background-color:white;
+    color:#404040;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 22pt;
+    color: #A4A400;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: left;
+    font-size: 18pt;
+    color: #A4A400;
+    font-weight: normal;
+    text-decoration: underline;
+
+}
+a{
+    color:#A4A400;
+    text-decoration: none;
+}
+
+blockquote{
+    background: #FFFFA8;
+    font-style: italic;
+    margin-left: 2rem;
+    padding :0.5rem;
+}
+.tooltip {
+  position: relative;
+  cursor: help;
+}
+
+.text {
+  visibility: hidden;
+  background-color:#A4A400;
+  color:white;
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+
+.tooltip:hover .text {
+  visibility: visible;
+}
+img{
+    width: 500px;
+    border-radius: 30px;
+
+}
+
